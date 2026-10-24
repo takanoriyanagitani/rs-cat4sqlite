@@ -3,7 +3,16 @@ name = "rs-cat4sqlite"
 version = "0.1.0"
 edition = "2024"
 
+description = "Concatenates the string/blob value of the rows in the db."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-cat4sqlite"
+homepage = "https://github.com/takanoriyanagitani/rs-cat4sqlite"
+documentation = "https://docs.rs/rs-cat4sqlite/latest"
+keywords = ["sqlite", "cat", "wasi", "blob", "string"]
+
 exclude = [
+  "example.sqlite.db3",
+  "cat4sqlite.wasm",
 ]
 
 [lints.rust]
